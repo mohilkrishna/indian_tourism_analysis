@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block title %}Analysis Report - Tourism India Analytics{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h1 class="display-5 fw-bold">Tourism Analysis Report</h1>
+            <p class="lead">Comprehensive analysis of tourism data across India</p>
+            <button class="btn btn-success" onclick="window.print()">
+                <i class="fas fa-print"></i> Download Report
+            </button>
+        </div>
+    </div>
+    
+    <!-- Executive Summary -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-body p-4">
+                    <h2><i class="fas fa-chart-line"></i> Executive Summary</h2>
+                    <p>This report presents a comprehensive analysis of tourism data across India, covering {{ stats.total_destinations }} destinations and {{ stats.total_hotels }} hotels.</p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-3 mb-3">
+                            <div class="text-center p-3 bg-light rounded">
+                                <div class="display-4 text-primary">{{ stats.total_destinations }}</div>
+                                <div>Destinations</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="text-center p-3 bg-light rounded">
+                                <div class="display-4 text-primary">{{ stats.total_hotels }}</div>
+                                <div>Hotels</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="text-center p-3 bg-light rounded">
+                                <div class="display-4 text-primary">{{ stats.states_covered }}</div>
+                                <div>States</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="text-center p-3 bg-light rounded">
+                                <div class="display-4 text-primary">{{ "%.1f"|format(stats.avg_rating) }}</div>
+                                <div>Avg Rating</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Statistical Analysis -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-body p-4">
+                    <h2><i class="fas fa-chart-bar"></i> Statistical Analysis</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>🏨 Hotel Analysis</h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-hotel text-primary"></i> <strong>Total Hotels:</strong> {{ stats.total_hotels }}</li>
+                                <li><i class="fas fa-rupee-sign text-success"></i> <strong>Average Hotel Price:</strong> ₹{{ "%.0f"|format(stats.avg_hotel_price) }}/night</li>
+                                {% if stats.total_reviews > 0 %}
+                                <li><i class="fas fa-comments text-info"></i> <strong>Total Reviews:</strong> {{ stats.total_reviews|format_number }}</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>📍 Destination Analysis</h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt text-danger"></i> <strong>Total Destinations:</strong> {{ stats.total_destinations }}</li>
+                                <li><i class="fas fa-star text-warning"></i> <strong>Average Rating:</strong> {{ "%.1f"|format(stats.avg_rating) }}/5</li>
+                                <li><i class="fas fa-money-bill-wave text-success"></i> <strong>Average Daily Cost:</strong> ₹{{ "%.0f"|format(stats.avg_cost) }}</li>
+                                <li><i class="fas fa-flag-checkered text-primary"></i> <strong>States Covered:</strong> {{ stats.states_covered }}</li>
+                                {% if stats.total_visitors > 0 %}
+                                <li><i class="fas fa-users text-info"></i> <strong>Total Annual Visitors:</strong> {{ stats.total_visitors|format_number }}</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Key Findings -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-body p-4">
+                    <h2><i class="fas fa-lightbulb"></i> Key Findings</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="alert alert-info">
+                                <i class="fas fa-chart-line"></i>
+                                <strong>Tourism Landscape</strong>
+                                <p class="mb-0 mt-2">India offers a diverse range of {{ stats.total_destinations }} tourist destinations across {{ stats.states_covered }} states, with {{ stats.total_hotels }} accommodation options.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="alert alert-success">
+                                <i class="fas fa-star"></i>
+                                <strong>Quality Assessment</strong>
+                                <p class="mb-0 mt-2">The average destination rating is {{ "%.1f"|format(stats.avg_rating) }}/5, indicating good quality tourist experiences across most locations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <div class="alert alert-warning">
+                                <i class="fas fa-rupee-sign"></i>
+                                <strong>Budget Analysis</strong>
+                                <p class="mb-0 mt-2">Average daily cost for activities is ₹{{ "%.0f"|format(stats.avg_cost) }}, while hotel accommodation averages ₹{{ "%.0f"|format(stats.avg_hotel_price) }}/night.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="alert alert-danger">
+                                <i class="fas fa-chart-bar"></i>
+                                <strong>Market Insight</strong>
+                                <p class="mb-0 mt-2">With {{ stats.total_hotels }} hotels serving {{ stats.total_destinations }} destinations, there's good accommodation availability for travelers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Destination List -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-body p-4">
+                    <h2><i class="fas fa-map-marked-alt"></i> Destination Directory</h2>
+                    <p>List of tourist destinations in our database (showing first 50):</p>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Place</th>
+                                    <th>State</th>
+                                    <th>Type</th>
+                                    <th>Rating</th>
+                                    <th>Cost/Day (₹)</th>
+                                    <th>Best Season</th>
+                                    <th>Budget</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for place in places %}
+                                <tr>
+                                    <td>{{ loop.index }}</td>
+                                    <td><strong>{{ place.Place }}</strong></td>
+                                    <td>{{ place.State }}</td>
+                                    <td>{{ place.Type }}</td>
+                                    <td>
+                                        <span class="badge bg-warning text-dark">
+                                            <i class="fas fa-star"></i> {{ "%.1f"|format(place.Rating) }}
+                                        </span>
+                                    </td>
+                                    <td>₹{{ "%.0f"|format(place.Cost_Per_Day) }}</td>
+                                    <td><span class="badge bg-info">{{ place.Season }}</span></td>
+                                    <td>
+                                        <span class="badge bg-{{ 'success' if place.Budget_Type in ['Budget', 'Low'] else 'warning' if place.Budget_Type in ['Medium', 'Mid'] else 'danger' }}">
+                                            {{ place.Budget_Type }}
+                                        </span>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    {% if places|length == 50 %}
+                    <p class="text-muted mt-3">Showing first 50 destinations. Use the Search page to find more destinations.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recommendations -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4 bg-primary text-white">
+                <div class="card-body p-4">
+                    <h2><i class="fas fa-clipboard-list"></i> Travel Recommendations</h2>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <i class="fas fa-wallet fa-3x mb-2"></i>
+                                <h5>Budget Travelers</h5>
+                                <p>Look for destinations with 'Budget' category and consider traveling during off-season for better deals.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <i class="fas fa-calendar-alt fa-3x mb-2"></i>
+                                <h5>Seasonal Planning</h5>
+                                <p>Plan your trip according to the best season mentioned for each destination to get the best experience.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <i class="fas fa-hotel fa-3x mb-2"></i>
+                                <h5>Accommodation</h5>
+                                <p>Book hotels 2-3 weeks in advance for best rates, especially during peak seasons.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Conclusion -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-body p-4">
+                    <h2><i class="fas fa-check-circle"></i> Conclusion</h2>
+                    <p>The tourism landscape in India is diverse and vibrant, offering something for every type of traveler. With {{ stats.total_destinations }} destinations across {{ stats.states_covered }} states and {{ stats.total_hotels }} hotels, travelers have plenty of options to choose from.</p>
+                    <p class="mb-0">Key takeaways include the importance of seasonal planning, the value of mid-range accommodations, and the availability of options for all budget categories. With proper planning and research, travelers can find excellent value across all destination types.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+@media print {
+    .btn, .navbar, .footer {
+        display: none !important;
+    }
+    body {
+        padding-top: 0 !important;
+    }
+    .card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        border: 1px solid #ddd !important;
+    }
+    .table {
+        font-size: 10pt;
+    }
+}
+</style>
+{% endblock %}

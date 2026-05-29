@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Tourism India Analytics{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-8 mx-auto text-center text-white">
+                <h1 class="display-4 fw-bold mb-4">
+                    <i class="fas fa-chart-line"></i> Tourism India Analytics
+                </h1>
+                <p class="lead mb-4">
+                    Comprehensive Analysis of Tourism Landscape Across India
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="{{ url_for('search') }}" class="btn btn-primary btn-lg">
+                        <i class="fas fa-search"></i> Search Places
+                    </a>
+                    <a href="{{ url_for('dashboard') }}" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-chart-bar"></i> View Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row mb-5">
+        <div class="col-12 text-center mb-4">
+            <h2>Key Statistics</h2>
+            <p class="text-muted">Comprehensive data insights from our analysis</p>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="stat-number">{{ metrics.total_destinations }}</div>
+                <div class="stat-label">Destinations</div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-hotel"></i></div>
+                <div class="stat-number">{{ metrics.total_hotels }}</div>
+                <div class="stat-label">Hotels</div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-star"></i></div>
+                <div class="stat-number">{{ "%.1f"|format(metrics.avg_rating) }}</div>
+                <div class="stat-label">Avg Rating</div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-rupee-sign"></i></div>
+                <div class="stat-number">₹{{ "%.0f"|format(metrics.avg_hotel_price) }}</div>
+                <div class="stat-label">Avg Hotel Price</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mb-5">
+        <div class="col-md-4 mb-3">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-flag-checkered"></i></div>
+                <div class="stat-number">{{ metrics.states_covered }}</div>
+                <div class="stat-label">States Covered</div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-users"></i></div>
+                <div class="stat-number">{{ metrics.total_visitors|format_number }}</div>
+                <div class="stat-label">Annual Visitors</div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-database"></i></div>
+                <div class="stat-number">{{ metrics.total_destinations + metrics.total_hotels }}</div>
+                <div class="stat-label">Data Points</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="insights-card">
+                <h3 class="mb-4"><i class="fas fa-lightbulb"></i> Key Insights</h3>
+                <div class="row">
+                    {% for insight in insights %}
+                    <div class="col-md-4 mb-3">
+                        <div class="p-3 bg-light rounded">
+                            <h5>{{ insight.title }}</h5>
+                            <p class="text-muted mb-2">{{ insight.description }}</p>
+                            <span class="badge bg-{{ 'danger' if insight.importance == 'High' else 'warning' if insight.importance == 'Medium' else 'info' }}">
+                                {{ insight.importance }}
+                            </span>
+                            <span class="badge bg-secondary ms-2">{{ insight.category }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

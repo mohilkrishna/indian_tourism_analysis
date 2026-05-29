@@ -1,0 +1,225 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Tourism India Analytics{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="display-5 fw-bold">Analytics Dashboard</h1>
+            <p class="lead">Comprehensive overview of tourism data across India</p>
+        </div>
+    </div>
+    
+    <div class="row mb-4">
+        <div class="col-md-3 mb-3">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="metric-value">{{ metrics.total_destinations }}</div>
+                <div class="metric-label">Total Destinations</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fas fa-hotel"></i></div>
+                <div class="metric-value">{{ metrics.total_hotels }}</div>
+                <div class="metric-label">Total Hotels</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fas fa-star"></i></div>
+                <div class="metric-value">{{ metrics.avg_rating }}/5</div>
+                <div class="metric-label">Average Rating</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fas fa-rupee-sign"></i></div>
+                <div class="metric-value">₹{{ metrics.avg_hotel_price }}</div>
+                <div class="metric-label">Avg Hotel Price</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fas fa-flag-checkered"></i></div>
+                <div class="metric-value">{{ metrics.states_count }}</div>
+                <div class="metric-label">States Covered</div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fas fa-tags"></i></div>
+                <div class="metric-value">{{ metrics.place_types }}</div>
+                <div class="metric-label">Place Types</div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fas fa-chart-line"></i></div>
+                <div class="metric-value">{{ metrics.budget_categories }}</div>
+                <div class="metric-label">Budget Categories</div>
+            </div>
+        </div>
+    </div>
+    
+    {% if charts.type_chart %}
+    <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+            <div class="chart-card">
+                <h4><i class="fas fa-chart-bar"></i> Place Types</h4>
+                <div id="typeChart" style="height: 400px;"></div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="chart-card">
+                <h4><i class="fas fa-chart-line"></i> Rating Distribution</h4>
+                <div id="ratingChart" style="height: 400px;"></div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    {% if charts.price_chart or charts.budget_chart %}
+    <div class="row mb-4">
+        {% if charts.price_chart %}
+        <div class="col-md-6 mb-3">
+            <div class="chart-card">
+                <h4><i class="fas fa-money-bill-wave"></i> Hotel Price Distribution</h4>
+                <div id="priceChart" style="height: 400px;"></div>
+            </div>
+        </div>
+        {% endif %}
+        {% if charts.budget_chart %}
+        <div class="col-md-6 mb-3">
+            <div class="chart-card">
+                <h4><i class="fas fa-chart-bar"></i> Average Cost by Budget</h4>
+                <div id="budgetChart" style="height: 400px;"></div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+    
+    {% if charts.season_chart or charts.geo_chart %}
+    <div class="row mb-4">
+        {% if charts.season_chart %}
+        <div class="col-md-6 mb-3">
+            <div class="chart-card">
+                <h4><i class="fas fa-calendar-alt"></i> Seasonal Distribution</h4>
+                <div id="seasonChart" style="height: 400px;"></div>
+            </div>
+        </div>
+        {% endif %}
+        {% if charts.geo_chart %}
+        <div class="col-md-6 mb-3">
+            <div class="chart-card">
+                <h4><i class="fas fa-map"></i> Geographic Distribution</h4>
+                <div id="geoChart" style="height: 400px;"></div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+    
+    {% if top_rated %}
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="data-table-card">
+                <h4><i class="fas fa-trophy"></i> Top Rated Places</h4>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr><th>Place</th><th>State</th><th>Type</th><th>Rating</th><th>Cost/Day</th><th>Best Season</th></tr>
+                        </thead>
+                        <tbody>
+                            {% for place in top_rated %}
+                            <tr>
+                                <td><strong>{{ place.Place }}</strong></td>
+                                <td>{{ place.State }}</td>
+                                <td>{{ place.Type }}</td>
+                                <td><span class="badge bg-warning"> {{ place.Rating }}/5</span></td>
+                                <td>₹{{ "%.0f"|format(place.Cost_Per_Day) }}</td>
+                                <td><span class="badge bg-info">{{ place.Season }}</span></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="insights-card">
+                <h4><i class="fas fa-lightbulb"></i> Key Insights</h4>
+                <div class="row">
+                    {% for insight in insights %}
+                    <div class="col-md-6 mb-3">
+                        <div class="p-3 bg-light rounded">
+                            <h6>{{ insight.title }}</h6>
+                            <p class="mb-1">{{ insight.description }}</p>
+                            <span class="badge bg-{{ 'danger' if insight.importance == 'High' else 'warning' if insight.importance == 'Medium' else 'info' }}">
+                                {{ insight.importance }}
+                            </span>
+                            <span class="badge bg-secondary ms-1">{{ insight.category }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    {% if charts.type_chart %}
+    try {
+        var data = {{ charts.type_chart|safe }};
+        Plotly.newPlot('typeChart', data.data, data.layout, {responsive: true});
+    } catch(e) { console.log('Type chart error:', e); }
+    {% endif %}
+    
+    {% if charts.rating_chart %}
+    try {
+        var data = {{ charts.rating_chart|safe }};
+        Plotly.newPlot('ratingChart', data.data, data.layout, {responsive: true});
+    } catch(e) { console.log('Rating chart error:', e); }
+    {% endif %}
+    
+    {% if charts.price_chart %}
+    try {
+        var data = {{ charts.price_chart|safe }};
+        Plotly.newPlot('priceChart', data.data, data.layout, {responsive: true});
+    } catch(e) { console.log('Price chart error:', e); }
+    {% endif %}
+    
+    {% if charts.budget_chart %}
+    try {
+        var data = {{ charts.budget_chart|safe }};
+        Plotly.newPlot('budgetChart', data.data, data.layout, {responsive: true});
+    } catch(e) { console.log('Budget chart error:', e); }
+    {% endif %}
+    
+    {% if charts.season_chart %}
+    try {
+        var data = {{ charts.season_chart|safe }};
+        Plotly.newPlot('seasonChart', data.data, data.layout, {responsive: true});
+    } catch(e) { console.log('Season chart error:', e); }
+    {% endif %}
+    
+    {% if charts.geo_chart %}
+    try {
+        var data = {{ charts.geo_chart|safe }};
+        Plotly.newPlot('geoChart', data.data, data.layout, {responsive: true});
+    } catch(e) { console.log('Geo chart error:', e); }
+    {% endif %}
+});
+</script>
+{% endblock %}

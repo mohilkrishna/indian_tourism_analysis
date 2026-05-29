@@ -1,0 +1,261 @@
+Place,State,Type,Cost_Per_Day,Season,Rating,Duration_Days,Budget_Type,Visitors_Per_Year,Famous_For
+Tirupati,Andhra Pradesh,Religious,10000,Winter,4.8,2,Low,25000000,Tirupati Temple
+Visakhapatnam,Andhra Pradesh,Beach,15000,Winter,4.5,3,Medium,5000000,Beaches
+Araku Valley,Andhra Pradesh,Hill Station,14000,Winter,4.6,3,Medium,1200000,Coffee & Hills
+Vijayawada,Andhra Pradesh,Religious,9000,Winter,4.3,2,Low,3000000,Kanaka Durga Temple
+Lepakshi,Andhra Pradesh,Historical,8000,Winter,4.4,2,Low,800000,Veerabhadra Temple
+Tawang,Arunachal Pradesh,Hill Station,18000,Summer,4.8,5,High,300000,Tawang Monastery
+Ziro Valley,Arunachal Pradesh,Nature,15000,Summer,4.7,4,Medium,200000,Ziro Festival
+Bomdila,Arunachal Pradesh,Hill Station,14000,Summer,4.5,3,Medium,150000,Monasteries
+Itanagar,Arunachal Pradesh,Urban,12000,Winter,4.3,2,Low,250000,Capital City
+Sela Pass,Arunachal Pradesh,Adventure,17000,Summer,4.6,3,High,180000,Mountain Pass
+Kaziranga National Park,Assam,Wildlife,18000,Winter,4.8,3,High,1000000,One Horned Rhino
+Guwahati,Assam,Urban,12000,Winter,4.4,2,Medium,2000000,Kamakhya Temple
+Majuli,Assam,Cultural,14000,Winter,4.6,3,Medium,500000,River Island
+Shillong,Assam,Hill Station,15000,Summer,4.5,4,Medium,700000,Waterfalls
+Tezpur,Assam,Historical,10000,Winter,4.3,2,Low,300000,Ancient Sites
+Patna,Bihar,Urban,3000,Winter,4.2,2,Medium,2000000,Capital City
+Bodh Gaya,Bihar,Religious,2500,Winter,4.8,2,Low,1500000,Mahabodhi Temple
+Nalanda,Bihar,Historical,2200,Winter,4.6,2,Low,800000,Ancient University
+Rajgir,Bihar,Religious,2400,Winter,4.5,2,Low,1000000,Hot Springs
+Vaishali,Bihar,Historical,2000,Winter,4.3,1,Low,500000,Buddhist Heritage
+Raipur,Chhattisgarh,Urban,3000,Winter,4.2,2,Medium,1500000,Capital City
+Jagdalpur,Chhattisgarh,Nature,3500,Winter,4.5,3,Medium,800000,Waterfalls & Forests
+Chitrakote Falls,Chhattisgarh,Nature,3200,Winter,4.7,2,Medium,600000,Niagara of India
+Bhilai,Chhattisgarh,Industrial,2800,Winter,4.1,2,Low,1000000,Steel Plant
+Kanger Valley,Chhattisgarh,Wildlife,3400,Winter,4.6,2,Medium,500000,National Park
+Panaji,Goa,Beach,5000,Winter,4.6,3,High,4000000,Beaches & Culture
+Calangute Beach,Goa,Beach,5500,Winter,4.7,3,High,5000000,Beach Life
+Baga Beach,Goa,Beach,5200,Winter,4.6,3,High,4500000,Nightlife
+Anjuna Beach,Goa,Beach,4800,Winter,4.5,3,Medium,3000000,Flea Market
+Old Goa,Goa,Historical,3500,Winter,4.4,2,Medium,2000000,Churches
+Ahmedabad,Gujarat,Urban,3500,Winter,4.3,2,Medium,3000000,Heritage City
+Gir National Park,Gujarat,Wildlife,5000,Winter,4.8,2,High,1000000,Asiatic Lions
+Surat,Gujarat,Urban,3000,Winter,4.2,2,Medium,2500000,Diamond City
+Dwarka,Gujarat,Religious,2800,Winter,4.7,2,Low,2000000,Dwarkadhish Temple
+Somnath,Gujarat,Religious,3000,Winter,4.8,2,Low,3000000,Somnath Temple
+Gurgaon,Haryana,Urban,4500,Winter,4.4,2,High,3500000,Corporate Hub
+Kurukshetra,Haryana,Religious,2500,Winter,4.5,1,Low,1500000,Historical Land
+Faridabad,Haryana,Urban,3000,Winter,4.2,2,Medium,2000000,City Life
+Panchkula,Haryana,Urban,3200,Winter,4.3,2,Medium,1200000,Planned City
+Morni Hills,Haryana,Hill Station,3500,Winter,4.4,2,Medium,800000,Hills
+Shimla,Himachal Pradesh,Hill Station,4000,Winter,4.7,3,Medium,5000000,Colonial Hills
+Manali,Himachal Pradesh,Hill Station,4500,Winter,4.8,4,High,6000000,Snow & Adventure
+Dharamshala,Himachal Pradesh,Hill Station,3800,Summer,4.6,3,Medium,3000000,Monasteries
+McLeod Ganj,Himachal Pradesh,Hill Station,4000,Summer,4.7,3,Medium,2500000,Tibetan Culture
+Kullu,Himachal Pradesh,Nature,3500,Summer,4.5,3,Medium,2000000,Valley Views
+Kasol,Himachal Pradesh,Adventure,4200,Summer,4.6,3,Medium,1500000,Parvati Valley
+Spiti Valley,Himachal Pradesh,Adventure,6000,Summer,4.8,5,High,500000,Cold Desert
+Dalhousie,Himachal Pradesh,Hill Station,3800,Winter,4.5,3,Medium,1800000,Peaceful Hills
+Khajjiar,Himachal Pradesh,Nature,3600,Summer,4.6,2,Medium,1200000,Mini Switzerland
+Kasauli,Himachal Pradesh,Hill Station,3500,Summer,4.4,2,Medium,1000000,Quiet Hills
+Chamba,Himachal Pradesh,Historical,3000,Winter,4.3,2,Low,800000,Temples
+Palampur,Himachal Pradesh,Nature,3400,Summer,4.5,2,Medium,900000,Tea Gardens
+Solan,Himachal Pradesh,Urban,3000,Winter,4.2,2,Low,700000,Mushroom City
+Narkanda,Himachal Pradesh,Hill Station,3700,Winter,4.6,2,Medium,600000,Skiing
+Tirthan Valley,Himachal Pradesh,Nature,4000,Summer,4.7,3,Medium,500000,Serene Nature
+Bir Billing,Himachal Pradesh,Adventure,4500,Summer,4.8,3,High,700000,Paragliding
+Chail,Himachal Pradesh,Hill Station,3500,Summer,4.4,2,Medium,600000,Palace & Cricket Ground
+Kufri,Himachal Pradesh,Hill Station,3200,Winter,4.5,2,Low,2000000,Snow Activities
+Rohtang Pass,Himachal Pradesh,Adventure,5000,Summer,4.7,1,High,1500000,Snow Point
+Barot Valley,Himachal Pradesh,Nature,3300,Summer,4.5,2,Medium,400000,Hidden Valley
+Ranchi,Jharkhand,Urban,3000,Winter,4.2,2,Medium,1200000,Waterfalls & Capital
+Netarhat,Jharkhand,Hill Station,3200,Winter,4.5,2,Medium,500000,Sunrise Point
+Deoghar,Jharkhand,Religious,2500,Winter,4.6,2,Low,2000000,Baijnath Dham
+Jamshedpur,Jharkhand,Urban,3200,Winter,4.3,2,Medium,1500000,Steel City
+Hazaribagh,Jharkhand,Nature,3000,Winter,4.4,2,Medium,800000,Wildlife & Hills
+Betla National Park,Jharkhand,Wildlife,3500,Winter,4.5,2,Medium,600000,Forest Safari
+Patratu Valley,Jharkhand,Nature,2800,Winter,4.6,1,Low,700000,Scenic Roads
+Parasnath Hill,Jharkhand,Religious,2600,Winter,4.7,2,Low,900000,Jain Pilgrimage
+Dhanbad,Jharkhand,Urban,3000,Winter,4.1,2,Medium,1000000,Coal City
+Bokaro,Jharkhand,Urban,2800,Winter,4.2,2,Medium,900000,Steel Plant
+Bangalore,Karnataka,Urban,4000,Winter,4.5,3,High,8000000,IT Hub
+Mysore,Karnataka,Historical,3000,Winter,4.6,2,Medium,4000000,Mysore Palace
+Coorg,Karnataka,Hill Station,4500,Winter,4.7,3,High,2000000,Coffee Plantations
+Hampi,Karnataka,Historical,3200,Winter,4.8,2,Medium,1500000,Ancient Ruins
+Gokarna,Karnataka,Beach,4000,Winter,4.6,3,Medium,1200000,Beaches
+Chikmagalur,Karnataka,Hill Station,4200,Winter,4.7,3,High,1000000,Coffee Hills
+Udupi,Karnataka,Religious,2800,Winter,4.5,2,Low,2000000,Krishna Temple
+Badami,Karnataka,Historical,3000,Winter,4.4,2,Low,800000,Cave Temples
+Bijapur,Karnataka,Historical,2800,Winter,4.3,2,Low,700000,Gol Gumbaz
+Kabini,Karnataka,Wildlife,5000,Winter,4.7,2,High,600000,Wildlife Safari
+Munnar,Kerala,Hill Station,4500,Winter,4.7,3,High,2000000,Tea Gardens
+Alleppey,Kerala,Backwaters,5000,Winter,4.8,3,High,2500000,Houseboats
+Kochi,Kerala,Urban,4000,Winter,4.5,2,Medium,3000000,Fort Kochi
+Wayanad,Kerala,Nature,4200,Winter,4.6,3,Medium,1500000,Forests & Waterfalls
+Thekkady,Kerala,Wildlife,4800,Winter,4.7,2,High,1200000,Periyar Wildlife
+Kovalam,Kerala,Beach,4500,Winter,4.6,3,High,2000000,Beaches
+Varkala,Kerala,Beach,4300,Winter,4.5,2,Medium,1800000,Cliff Beach
+Trivandrum,Kerala,Urban,3500,Winter,4.4,2,Medium,2200000,Capital City
+Kumarakom,Kerala,Backwaters,5000,Winter,4.7,2,High,1400000,Backwaters
+Bekal,Kerala,Historical,4000,Winter,4.5,2,Medium,900000,Bekal Fort
+Bhopal,Madhya Pradesh,Urban,3000,Winter,4.3,2,Medium,2000000,Lakes
+Indore,Madhya Pradesh,Urban,3200,Winter,4.4,2,Medium,2500000,Food City
+Khajuraho,Madhya Pradesh,Historical,4000,Winter,4.7,2,Medium,1500000,Temples
+Sanchi,Madhya Pradesh,Historical,2800,Winter,4.6,1,Low,800000,Buddhist Stupa
+Gwalior,Madhya Pradesh,Historical,3000,Winter,4.5,2,Medium,1200000,Forts
+Ujjain,Madhya Pradesh,Religious,2500,Winter,4.7,2,Low,3000000,Mahakal Temple
+Pachmarhi,Madhya Pradesh,Hill Station,3800,Winter,4.6,3,Medium,1000000,Hill Views
+Kanha National Park,Madhya Pradesh,Wildlife,5000,Winter,4.8,2,High,900000,Tiger Reserve
+Bandhavgarh,Madhya Pradesh,Wildlife,5200,Winter,4.8,2,High,800000,Tiger Safari
+Orchha,Madhya Pradesh,Historical,3000,Winter,4.5,2,Medium,700000,Palaces
+Mumbai,Maharashtra,Urban,5000,Winter,4.5,3,High,7000000,City Life
+Pune,Maharashtra,Urban,3500,Winter,4.3,2,Medium,3000000,Education Hub
+Lonavala,Maharashtra,Hill Station,4000,Monsoon,4.6,2,Medium,2500000,Hills
+Mahabaleshwar,Maharashtra,Hill Station,4200,Winter,4.7,3,High,2000000,Strawberries
+Nashik,Maharashtra,Religious,3000,Winter,4.5,2,Medium,1800000,Temples & Wine
+Aurangabad,Maharashtra,Historical,3500,Winter,4.6,2,Medium,1500000,Ajanta Ellora
+Shirdi,Maharashtra,Religious,2800,Winter,4.8,2,Low,4000000,Sai Baba Temple
+Alibaug,Maharashtra,Beach,4500,Winter,4.5,2,High,1500000,Beaches
+Kolhapur,Maharashtra,Historical,3000,Winter,4.4,2,Medium,1200000,Mahalaxmi Temple
+Nagpur,Maharashtra,Urban,3200,Winter,4.2,2,Medium,2000000,Orange City
+Imphal,Manipur,Urban,3000,Winter,4.3,2,Medium,800000,Capital City
+Loktak Lake,Manipur,Nature,3500,Winter,4.7,2,Medium,600000,Floating Lake
+Ukhrul,Manipur,Hill Station,3800,Summer,4.6,3,Medium,400000,Hills & Nature
+Moirang,Manipur,Historical,2800,Winter,4.5,2,Low,300000,INA Memorial
+Thoubal,Manipur,Nature,3000,Winter,4.3,2,Low,200000,Scenic Area
+Chandel,Manipur,Nature,3200,Winter,4.4,2,Medium,150000,Valleys
+Bishnupur,Manipur,Historical,2800,Winter,4.5,2,Low,250000,Temples
+Senapati,Manipur,Hill Station,3500,Summer,4.4,2,Medium,200000,Hills
+Tamenglong,Manipur,Nature,3600,Winter,4.5,2,Medium,150000,Waterfalls
+Kangla Fort,Manipur,Historical,2500,Winter,4.6,1,Low,500000,Fort
+Shillong,Meghalaya,Hill Station,4500,Summer,4.6,3,Medium,2000000,Scotland of East
+Cherrapunji,Meghalaya,Nature,4200,Monsoon,4.7,2,Medium,1500000,Heavy Rainfall
+Mawlynnong,Meghalaya,Nature,4000,Winter,4.6,2,Medium,800000,Cleanest Village
+Dawki,Meghalaya,Nature,4200,Winter,4.8,2,Medium,1000000,Crystal River
+Jowai,Meghalaya,Nature,3500,Winter,4.4,2,Low,600000,Hills
+Aizawl,Mizoram,Urban,3000,Winter,4.3,2,Medium,500000,Capital City
+Reiek,Mizoram,Hill Station,3500,Winter,4.5,2,Medium,200000,Hills
+Champhai,Mizoram,Nature,3800,Winter,4.6,2,Medium,150000,Rice Fields
+Lunglei,Mizoram,Nature,3400,Winter,4.4,2,Medium,120000,Scenic Views
+Hmuifang,Mizoram,Nature,3200,Winter,4.3,2,Low,100000,Forests
+Kohima,Nagaland,Urban,3500,Winter,4.5,2,Medium,400000,War Cemetery
+Dimapur,Nagaland,Urban,3000,Winter,4.2,2,Medium,600000,Gateway City
+Dzukou Valley,Nagaland,Nature,4500,Summer,4.8,3,High,200000,Valley Trek
+Mokokchung,Nagaland,Nature,3400,Winter,4.4,2,Medium,150000,Culture
+Mon,Nagaland,Cultural,3200,Winter,4.3,2,Low,120000,Tribal Area
+Tuophema Village,Nagaland,Cultural,3300,Winter,4.5,2,Medium,100000,Naga Heritage
+Wokha,Nagaland,Nature,3200,Winter,4.3,2,Low,90000,Hills & Lakes
+Phek,Nagaland,Nature,3400,Winter,4.4,2,Medium,80000,Scenic Beauty
+Kiphire,Nagaland,Nature,3500,Winter,4.5,2,Medium,70000,Saramati Peak
+Longleng,Nagaland,Cultural,3000,Winter,4.2,2,Low,60000,Tribal Culture
+Bhubaneswar,Odisha,Urban,3000,Winter,4.4,2,Medium,2000000,Temple City
+Puri,Odisha,Religious,3500,Winter,4.7,2,Medium,5000000,Jagannath Temple
+Konark,Odisha,Historical,3200,Winter,4.8,2,Medium,1500000,Sun Temple
+Chilika Lake,Odisha,Nature,4000,Winter,4.6,2,Medium,1000000,Lagoon
+Cuttack,Odisha,Urban,2800,Winter,4.3,2,Low,1500000,Silver City
+Rourkela,Odisha,Urban,3000,Winter,4.2,2,Medium,1000000,Steel City
+Gopalpur,Odisha,Beach,4200,Winter,4.5,2,Medium,800000,Beach
+Daringbadi,Odisha,Hill Station,3500,Winter,4.6,2,Medium,600000,Kashmir of Odisha
+Sambalpur,Odisha,Urban,3000,Winter,4.3,2,Medium,900000,Hirakud Dam
+Balasore,Odisha,Beach,3200,Winter,4.2,2,Low,700000,Coastal Area
+Amritsar,Punjab,Religious,3000,Winter,4.8,2,Medium,6000000,Golden Temple
+Wagah Border,Punjab,Event,2000,Winter,4.7,1,Low,5000000,Retreat Ceremony
+Jallianwala Bagh,Punjab,Historical,2000,Winter,4.7,1,Low,4000000,Memorial
+Durgiana Temple,Punjab,Religious,2200,Winter,4.5,1,Low,1500000,Hindu Temple
+Ram Tirath,Punjab,Religious,2000,Winter,4.4,1,Low,800000,Ramayana Site
+Chandigarh,Punjab,Urban,3500,Winter,4.5,2,Medium,4000000,Planned City
+Rock Garden,Punjab,Cultural,2500,Winter,4.6,1,Low,3000000,Sculptures
+Sukhna Lake,Punjab,Nature,2500,Winter,4.5,1,Low,3500000,Lake
+Rose Garden,Punjab,Nature,2300,Winter,4.4,1,Low,2000000,Garden
+Ludhiana,Punjab,Urban,3000,Winter,4.3,2,Medium,2500000,Industrial Hub
+Punjab Agricultural University,Punjab,Cultural,2500,Winter,4.3,1,Low,1000000,Museum
+Phillaur Fort,Punjab,Historical,2600,Winter,4.2,1,Low,500000,Fort
+Patiala,Punjab,Historical,3200,Winter,4.4,2,Medium,1500000,Palaces
+Qila Mubarak,Punjab,Historical,3000,Winter,4.5,1,Medium,900000,Fort Complex
+Sheesh Mahal,Punjab,Historical,2800,Winter,4.4,1,Low,800000,Mirror Palace
+Baradari Gardens,Punjab,Nature,2500,Winter,4.3,1,Low,700000,Gardens
+Jalandhar,Punjab,Urban,3000,Winter,4.2,2,Medium,2000000,Sports Industry
+Devi Talab Mandir,Punjab,Religious,2200,Winter,4.5,1,Low,1200000,Temple
+Wonderland,Punjab,Entertainment,3000,Summer,4.3,1,Medium,900000,Water Park
+Kapurthala,Punjab,Historical,2800,Winter,4.3,1,Low,600000,Jagatjit Palace
+Moorish Mosque,Punjab,Historical,2600,Winter,4.4,1,Low,500000,Mosque
+Bathinda,Punjab,Historical,2800,Winter,4.2,2,Low,700000,Qila Mubarak
+Lakhi Jungle,Punjab,Religious,2500,Winter,4.4,1,Low,500000,Gurudwara
+Anandpur Sahib,Punjab,Religious,2600,Winter,4.8,2,Low,3000000,Sikh Heritage
+Virasat-e-Khalsa,Punjab,Cultural,3000,Winter,4.8,1,Medium,2500000,Museum
+Ropar Wetland,Punjab,Nature,2700,Winter,4.4,1,Low,600000,Bird Sanctuary
+Harike Wetland,Punjab,Nature,2800,Winter,4.5,1,Low,800000,Bird Sanctuary
+Pathankot,Punjab,Urban,3000,Winter,4.2,2,Medium,1000000,Gateway to Hills
+Mukteshwar Temple,Punjab,Religious,2500,Winter,4.5,1,Low,700000,Temple
+Gurdaspur,Punjab,Urban,2800,Winter,4.2,2,Low,600000,Town
+Jaipur,Rajasthan,Historical,4000,Winter,4.7,3,Medium,6000000,Pink City
+Udaipur,Rajasthan,Historical,4500,Winter,4.8,3,High,5000000,Lake City
+Jodhpur,Rajasthan,Historical,4000,Winter,4.7,2,Medium,4000000,Blue City
+Jaisalmer,Rajasthan,Desert,4500,Winter,4.8,3,High,3000000,Desert Safari
+Pushkar,Rajasthan,Religious,3000,Winter,4.6,2,Medium,2000000,Brahma Temple
+Ajmer,Rajasthan,Religious,3000,Winter,4.7,2,Medium,3500000,Dargah Sharif
+Bikaner,Rajasthan,Historical,3500,Winter,4.5,2,Medium,1500000,Forts
+Mount Abu,Rajasthan,Hill Station,4000,Summer,4.6,3,Medium,2000000,Hill Station
+Chittorgarh,Rajasthan,Historical,3200,Winter,4.7,2,Medium,1200000,Fort
+Ranthambore,Rajasthan,Wildlife,5000,Winter,4.8,2,High,1000000,Tiger Reserve
+Gangtok,Sikkim,Hill Station,4000,Summer,4.7,3,Medium,2000000,Capital City
+Tsomgo Lake,Sikkim,Nature,4200,Winter,4.8,2,Medium,1500000,Lake
+Nathula Pass,Sikkim,Adventure,5000,Summer,4.9,1,High,1000000,Indo-China Border
+Pelling,Sikkim,Hill Station,3800,Summer,4.6,2,Medium,800000,Kanchenjunga View
+Lachung,Sikkim,Hill Station,4500,Winter,4.7,2,High,600000,Valley
+Yumthang Valley,Sikkim,Nature,4800,Spring,4.8,2,High,700000,Valley of Flowers
+Namchi,Sikkim,Religious,3200,Summer,4.5,2,Medium,500000,Statues
+Ravangla,Sikkim,Nature,3500,Summer,4.6,2,Medium,400000,Buddha Park
+Zuluk,Sikkim,Adventure,4500,Winter,4.7,2,High,300000,Silk Route
+Singalila National Park,Sikkim,Wildlife,5000,Summer,4.7,2,High,200000,Biodiversity
+Chennai,Tamil Nadu,Urban,4000,Winter,4.5,3,Medium,6000000,Capital City
+Ooty,Tamil Nadu,Hill Station,4500,Summer,4.7,3,High,5000000,Hills
+Kodaikanal,Tamil Nadu,Hill Station,4300,Summer,4.7,3,High,4000000,Lake & Hills
+Madurai,Tamil Nadu,Religious,3000,Winter,4.8,2,Medium,5000000,Meenakshi Temple
+Rameswaram,Tamil Nadu,Religious,3200,Winter,4.8,2,Medium,4000000,Temple
+Coimbatore,Tamil Nadu,Urban,3500,Winter,4.4,2,Medium,3000000,Industrial City
+Mahabalipuram,Tamil Nadu,Historical,3500,Winter,4.7,2,Medium,2500000,Shore Temple
+Kanyakumari,Tamil Nadu,Nature,3500,Winter,4.8,2,Medium,3000000,Southern Tip
+Trichy,Tamil Nadu,Religious,3000,Winter,4.6,2,Medium,2000000,Temples
+Vellore,Tamil Nadu,Historical,3000,Winter,4.5,2,Medium,1500000,Fort
+Hyderabad,Telangana,Urban,4000,Winter,4.6,3,Medium,7000000,Charminar
+Warangal,Telangana,Historical,3000,Winter,4.5,2,Medium,1500000,Kakatiya Fort
+Nizamabad,Telangana,Urban,2800,Winter,4.2,2,Low,800000,City
+Karimnagar,Telangana,Urban,2800,Winter,4.2,2,Low,700000,Temples
+Khammam,Telangana,Nature,3000,Winter,4.3,2,Medium,600000,Forests
+Adilabad,Telangana,Nature,3200,Winter,4.4,2,Medium,500000,Waterfalls
+Medak,Telangana,Historical,2800,Winter,4.3,1,Low,400000,Church
+Mahbubnagar,Telangana,Nature,3000,Winter,4.3,2,Medium,500000,Scenic Spots
+Ramagundam,Telangana,Industrial,2800,Winter,4.1,2,Low,300000,Power Plant
+Bhadrachalam,Telangana,Religious,3000,Winter,4.7,2,Medium,1200000,Rama Temple
+Agartala,Tripura,Urban,3000,Winter,4.4,2,Medium,800000,Capital City
+Ujjayanta Palace,Tripura,Historical,2800,Winter,4.6,1,Low,600000,Palace
+Neermahal,Tripura,Historical,3000,Winter,4.7,1,Medium,500000,Water Palace
+Unakoti,Tripura,Historical,3200,Winter,4.8,2,Medium,400000,Rock Carvings
+Jampui Hills,Tripura,Hill Station,3500,Winter,4.6,2,Medium,300000,Hills
+Sepahijala Wildlife Sanctuary,Tripura,Wildlife,3000,Winter,4.5,1,Medium,250000,Zoo & Forest
+Dumboor Lake,Tripura,Nature,3200,Winter,4.5,2,Medium,200000,Lake
+Kailashahar,Tripura,Urban,2800,Winter,4.2,2,Low,150000,Town
+Belonia,Tripura,Urban,2600,Winter,4.1,2,Low,120000,Border Town
+Ambassa,Tripura,Nature,2800,Winter,4.3,2,Low,100000,Scenic Area
+Agra,Uttar Pradesh,Historical,3500,Winter,4.8,2,Medium,7000000,Taj Mahal
+Varanasi,Uttar Pradesh,Religious,3000,Winter,4.8,2,Medium,6000000,Ganga Ghats
+Lucknow,Uttar Pradesh,Urban,3200,Winter,4.5,2,Medium,4000000,Nawabi Culture
+Ayodhya,Uttar Pradesh,Religious,3000,Winter,4.7,2,Medium,5000000,Ram Temple
+Mathura,Uttar Pradesh,Religious,2800,Winter,4.7,2,Low,4000000,Krishna Birthplace
+Vrindavan,Uttar Pradesh,Religious,2800,Winter,4.8,2,Low,3500000,Temples
+Prayagraj,Uttar Pradesh,Religious,3000,Winter,4.6,2,Medium,3000000,Sangam
+Kanpur,Uttar Pradesh,Urban,3000,Winter,4.2,2,Medium,2500000,Industrial City
+Jhansi,Uttar Pradesh,Historical,3000,Winter,4.5,2,Medium,1500000,Fort
+Gorakhpur,Uttar Pradesh,Religious,2800,Winter,4.4,2,Low,1200000,Gorakhnath Temple
+Dehradun,Uttarakhand,Urban,3000,Winter,4.4,2,Medium,2000000,Capital City
+Mussoorie,Uttarakhand,Hill Station,4000,Summer,4.7,3,Medium,5000000,Hills
+Nainital,Uttarakhand,Hill Station,4200,Summer,4.7,3,Medium,4000000,Lake
+Rishikesh,Uttarakhand,Adventure,3500,Winter,4.8,2,Medium,6000000,Rafting
+Haridwar,Uttarakhand,Religious,3000,Winter,4.8,2,Medium,7000000,Ganga Aarti
+Auli,Uttarakhand,Hill Station,4500,Winter,4.7,3,High,1000000,Skiing
+Kedarnath,Uttarakhand,Religious,4000,Summer,4.9,3,High,2000000,Temple
+Badrinath,Uttarakhand,Religious,4000,Summer,4.9,3,High,1800000,Temple
+Jim Corbett,Uttarakhand,Wildlife,5000,Winter,4.8,2,High,1500000,Tiger Reserve
+Almora,Uttarakhand,Hill Station,3500,Summer,4.5,2,Medium,800000,Hills
+Kolkata,West Bengal,Urban,3500,Winter,4.5,3,Medium,6000000,Cultural City
+Darjeeling,West Bengal,Hill Station,4500,Summer,4.8,3,High,4000000,Tea Gardens
+Siliguri,West Bengal,Urban,3000,Winter,4.3,2,Medium,2000000,Gateway City
+Sundarbans,West Bengal,Wildlife,5000,Winter,4.8,2,High,1500000,Mangrove Forest
+Digha,West Bengal,Beach,4000,Winter,4.5,2,Medium,2500000,Beach
+Kalimpong,West Bengal,Hill Station,4200,Summer,4.6,2,Medium,1500000,Hills
+Murshidabad,West Bengal,Historical,3200,Winter,4.5,2,Medium,800000,History
+Shantiniketan,West Bengal,Cultural,3000,Winter,4.6,2,Medium,700000,Tagore
+Howrah,West Bengal,Urban,3000,Winter,4.3,2,Medium,3000000,Bridge
+Bishnupur,West Bengal,Historical,3000,Winter,4.5,2,Medium,600000,Temples

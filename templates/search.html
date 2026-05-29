@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+
+{% block title %}Search Destinations - Tourism India Analytics{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <h1 class="display-5 fw-bold">Find Tourist Places</h1>
+            <p class="lead">Search by city name or state to discover amazing destinations</p>
+        </div>
+    </div>
+    
+    <!-- Search Box -->
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-body p-4">
+                    <form method="POST" action="{{ url_for('search') }}">
+                        <div class="input-group input-group-lg">
+                            <input type="text" name="city_name" class="form-control rounded-start-4" 
+                                   placeholder="🔍 Enter city or state name (e.g., 'Tirupati', 'Andhra Pradesh', 'Goa')..." 
+                                   value="{{ search_query if search_query else '' }}">
+                            <button type="submit" class="btn btn-primary rounded-end-4 px-4">
+                                <i class="fas fa-search"></i> Search
+                            </button>
+                        </div>
+                    </form>
+                    
+                    {% if popular_cities %}
+                    <div class="mt-4">
+                        <label class="text-muted mb-2">Popular Destinations:</label>
+                        <div class="d-flex flex-wrap gap-2">
+                            {% for city in popular_cities[:10] %}
+                            <button class="btn btn-outline-primary btn-sm rounded-pill" 
+                                    onclick="searchCity('{{ city }}')">
+                                {{ city }}
+                            </button>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Search Results -->
+    {% if search_performed %}
+        {% if all_results %}
+            <div class="alert alert-success">
+                <i class="fas fa-check-circle"></i> Found {{ results_count }} destination(s) matching "{{ search_query }}"
+            </div>
+            
+            <div class="row">
+                {% for place in all_results %}
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div>
+                                    <h3 class="card-title h4">{{ place.name }}</h3>
+                                    <p class="text-muted mb-0">
+                                        <i class="fas fa-map-marker-alt text-primary"></i> {{ place.state }}
+                                    </p>
+                                </div>
+                                <span class="badge bg-warning fs-6">
+                                    <i class="fas fa-star"></i> {{ "%.1f"|format(place.rating) }}
+                                </span>
+                            </div>
+                            
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <small class="text-muted">Daily Cost</small>
+                                    <div class="fw-bold text-success">₹{{ "%.0f"|format(place.cost_per_day) }}</div>
+                                </div>
+                                <div class="col-6">
+                                    <small class="text-muted">Best Season</small>
+                                    <div><span class="badge bg-info">{{ place.best_season }}</span></div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <span class="badge bg-secondary">{{ place.category }}</span>
+                                <span class="badge bg-{{ 'success' if place.budget_type in ['Budget', 'Low'] else 'warning' if place.budget_type in ['Medium', 'Mid'] else 'danger' }}">
+                                    {{ place.budget_type }} Budget
+                                </span>
+                                <span class="badge bg-primary">{{ place.hotels_count }} Hotels</span>
+                                {% if place.avg_hotel_price > 0 %}
+                                <span class="badge bg-info">Avg Hotel: ₹{{ "%.0f"|format(place.avg_hotel_price) }}</span>
+                                {% endif %}
+                            </div>
+                            
+                            <p class="text-muted small">{{ place.description }}</p>
+                            
+                            <button class="btn btn-primary w-100" 
+                                    onclick="window.location.href='{{ url_for('calculator') }}?place={{ place.name }}'">
+                                <i class="fas fa-calculator"></i> Plan Your Trip
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="alert alert-warning text-center">
+                <i class="fas fa-exclamation-triangle fa-2x mb-3"></i>
+                <h4>No destinations found</h4>
+                <p>We couldn't find any places matching "{{ search_query }}"</p>
+                <hr>
+                <p class="mb-0">Try searching for: 
+                    {% for city in popular_cities[:5] %}
+                    <button class="btn btn-link" onclick="searchCity('{{ city }}')">{{ city }}</button>
+                    {% endfor %}
+                </p>
+            </div>
+        {% endif %}
+    {% else %}
+        <!-- Show all places when no search performed -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="mb-3"><i class="fas fa-database"></i> All Destinations ({{ all_places|length }})</h3>
+            </div>
+        </div>
+        
+        <div class="row">
+            {% for place in all_places[:12] %}
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card h-100 shadow-sm border-0 rounded-3">
+                    <div class="card-body text-center">
+                        <i class="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
+                        <h6 class="card-title">{{ place.Place }}</h6>
+                        <small class="text-muted">{{ place.State }}</small>
+                        <div class="mt-2">
+                            <span class="badge bg-warning">★ {{ place.Rating }}</span>
+                        </div>
+                        <button class="btn btn-sm btn-outline-primary mt-2 w-100" 
+                                onclick="searchCity('{{ place.Place }}')">
+                            <i class="fas fa-search"></i> View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        {% if all_places|length > 12 %}
+        <div class="text-center mt-3">
+            <p class="text-muted">And {{ all_places|length - 12 }} more destinations... Use the search bar above to find specific places!</p>
+        </div>
+        {% endif %}
+    {% endif %}
+</div>
+
+<script>
+function searchCity(cityName) {
+    const searchInput = document.querySelector('input[name="city_name"]');
+    if (searchInput) {
+        searchInput.value = cityName;
+        searchInput.form.submit();
+    }
+}
+</script>
+
+<style>
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+    }
+    .btn-outline-primary {
+        border-color: #667eea;
+        color: #667eea;
+    }
+    .btn-outline-primary:hover {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        border-color: transparent;
+        color: white;
+    }
+</style>
+{% endblock %}

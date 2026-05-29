@@ -1,0 +1,287 @@
+Hotel_Name,Place,State,Hotel_Type,Price_Per_Night,Rating,Amenities,Distance_From_Center (km),Reviews_Count
+Hotel Bliss,Tirupati,Andhra Pradesh,Budget,2000,4.2,WiFi|AC|Parking,1.5,1200
+Fortune Select Grand Ridge,Tirupati,Andhra Pradesh,Luxury,6000,4.6,WiFi|Pool|Gym,2.0,900
+Novotel Visakhapatnam,Visakhapatnam,Andhra Pradesh,Luxury,7000,4.5,WiFi|Pool|Sea View,1.0,1500
+Dolphin Hotel,Visakhapatnam,Andhra Pradesh,Standard,4000,4.3,WiFi|AC|Restaurant,1.8,1100
+Haritha Resort,Araku Valley,Andhra Pradesh,Budget,2500,4.1,Parking|Nature View,2.5,500
+Casa Holiday Resort,Araku Valley,Andhra Pradesh,Standard,3500,4.2,WiFi|AC,1.2,400
+Quality Hotel DV Manor,Vijayawada,Andhra Pradesh,Standard,4500,4.4,WiFi|Gym|Restaurant,1.0,800
+Hotel Ilapuram,Vijayawada,Andhra Pradesh,Budget,2000,4.1,WiFi|AC,1.5,600
+Rishikesh Residency,Lepakshi,Andhra Pradesh,Budget,1800,4.0,Parking|AC,2.0,300
+KSTDC Mayura Hotel,Lepakshi,Andhra Pradesh,Standard,3000,4.2,WiFi|Restaurant,1.5,350
+Hotel Tawang Heights,Tawang,Arunachal Pradesh,Standard,4000,4.3,WiFi|Heater|View,1.5,300
+Dolma Khangsar,Tawang,Arunachal Pradesh,Luxury,6500,4.6,WiFi|Restaurant|Mountain View,2.0,250
+Ziro Valley Resort,Ziro Valley,Arunachal Pradesh,Standard,3500,4.4,WiFi|Nature View,1.2,200
+Blue Pine Hotel,Ziro Valley,Arunachal Pradesh,Budget,2500,4.1,Parking|Basic Amenities,1.8,150
+Hotel Tsepal Yangjom,Bomdila,Arunachal Pradesh,Standard,3000,4.2,WiFi|Restaurant,1.0,180
+Hotel West Kameng,Bomdila,Arunachal Pradesh,Budget,2000,4.0,Parking|AC,1.5,120
+Cygnett Inn Trendz,Itanagar,Arunachal Pradesh,Luxury,6000,4.5,WiFi|Pool|Gym,1.0,400
+Hotel Arun Subansiri,Itanagar,Arunachal Pradesh,Standard,3500,4.2,WiFi|Restaurant,1.3,220
+Sela View Camp,Sela Pass,Arunachal Pradesh,Budget,1800,4.1,Basic Stay|View,2.5,100
+Mountain Camp,Sela Pass,Arunachal Pradesh,Adventure,2200,4.2,Camp Stay|Bonfire,3.0,90
+IORA Resort,Kaziranga National Park,Assam,Luxury,7000,4.6,WiFi|Pool|Nature View,2.0,500
+Landmark Woods,Kaziranga National Park,Assam,Standard,4000,4.3,WiFi|Restaurant,1.5,350
+Radisson Blu,Guwahati,Assam,Luxury,8000,4.7,WiFi|Pool|Gym,1.0,1200
+Hotel Gateway Grandeur,Guwahati,Assam,Standard,4500,4.4,WiFi|AC|Restaurant,1.2,800
+La Maison de Ananda,Majuli,Assam,Standard,3000,4.5,WiFi|Nature Stay,1.5,200
+Ygdrasill Bamboo Cottage,Majuli,Assam,Budget,2000,4.2,Bamboo Stay|Eco,2.0,150
+Hotel Polo Towers,Shillong,Assam,Luxury,6500,4.5,WiFi|Gym|Restaurant,1.0,900
+The Eee Cee Hotel,Shillong,Assam,Standard,3500,4.3,WiFi|AC,1.3,600
+Hotel KRC Palace,Tezpur,Assam,Standard,3000,4.2,WiFi|Restaurant,1.0,250
+Hotel Luit,Tezpur,Assam,Budget,1800,4.0,Parking|Basic Amenities,1.5,180
+Hotel Maurya,Patna,Bihar,Luxury,6000,4.5,WiFi|Pool|Gym,1.0,1200
+Hotel Patliputra Continental,Patna,Bihar,Luxury,7000,4.6,WiFi|Pool|Restaurant,1.5,900
+Hotel Delta International,Bodh Gaya,Bihar,Standard,3500,4.3,WiFi|AC|Restaurant,1.2,600
+Hotel Bodhgaya Regency,Bodh Gaya,Bihar,Budget,2000,4.1,WiFi|Parking,1.5,500
+Nalanda Guest House,Nalanda,Bihar,Budget,1800,4.0,Parking|Basic Amenities,1.0,300
+Hotel Nalanda Residency,Nalanda,Bihar,Standard,3000,4.2,WiFi|Restaurant,1.3,350
+Hotel Rajgir Residency,Rajgir,Bihar,Standard,3200,4.3,WiFi|AC,1.0,400
+Indo Hokke Hotel,Rajgir,Bihar,Luxury,5000,4.5,WiFi|Restaurant|Garden,1.5,450
+Hotel Vaishali Residency,Vaishali,Bihar,Budget,1500,4.0,Parking|Basic Amenities,1.2,200
+Vaishali Grand Hotel,Vaishali,Bihar,Standard,2800,4.2,WiFi|Restaurant,1.5,250
+Hotel Babylon International,Raipur,Chhattisgarh,Luxury,6000,4.5,WiFi|Pool|Gym,1.0,900
+Hotel Grand Imperia,Raipur,Chhattisgarh,Standard,3500,4.3,WiFi|AC|Restaurant,1.3,700
+Hotel Akanksha,Jagdalpur,Chhattisgarh,Standard,3000,4.2,WiFi|Restaurant,1.2,400
+Naman Bastar Resort,Jagdalpur,Chhattisgarh,Budget,2000,4.1,Parking|Nature View,2.0,300
+Chitrakote Eco Resort,Chitrakote Falls,Chhattisgarh,Standard,3200,4.4,WiFi|View,1.5,350
+Hotel Devansh,Chitrakote Falls,Chhattisgarh,Budget,1800,4.0,Basic Amenities,2.0,200
+Hotel Central Park,Bhilai,Chhattisgarh,Standard,2800,4.2,WiFi|AC,1.0,500
+Hotel Grand Dhillon,Bhilai,Chhattisgarh,Luxury,5000,4.4,WiFi|Gym|Restaurant,1.5,450
+Kanger Valley Resort,Kanger Valley,Chhattisgarh,Budget,2000,4.1,Nature Stay|Parking,2.5,250
+Bastar Jungle Camp,Kanger Valley,Chhattisgarh,Adventure,2500,4.2,Camp Stay|Bonfire,3.0,200
+Taj Resort,Panaji,Goa,Luxury,8000,4.7,WiFi|Pool|Sea View,1.0,1500
+Hotel Fidalgo,Panaji,Goa,Standard,4000,4.4,WiFi|AC,1.5,900
+Resort Rio,Calangute Beach,Goa,Luxury,9000,4.6,WiFi|Pool|Spa,1.2,1200
+Goan Heritage,Calangute Beach,Goa,Standard,4500,4.3,WiFi|Beach Access,1.8,800
+Acron Waterfront,Baga Beach,Goa,Luxury,8500,4.6,WiFi|Pool,1.0,1000
+Casa Anjuna,Anjuna Beach,Goa,Standard,4000,4.3,WiFi|AC,1.5,700
+Old Goa Residency,Old Goa,Goa,Budget,2000,4.1,Parking|Basic,1.2,300
+Hyatt Regency,Ahmedabad,Gujarat,Luxury,7000,4.6,WiFi|Pool,1.0,1100
+Hotel Accolade,Ahmedabad,Gujarat,Standard,3500,4.3,WiFi|AC,1.5,700
+Gir Jungle Lodge,Gir National Park,Gujarat,Luxury,8000,4.7,Safari|Pool,2.0,600
+Lion Safari Camp,Gir National Park,Gujarat,Standard,4500,4.4,Nature Stay,2.5,500
+Hotel Orange,Surat,Gujarat,Standard,3000,4.2,WiFi|AC,1.0,600
+The Grand Bhagwati,Surat,Gujarat,Luxury,6000,4.5,WiFi|Gym,1.5,700
+Hotel Dwarka Residency,Dwarka,Gujarat,Budget,2000,4.1,Basic Amenities,1.2,400
+Lords Inn,Somnath,Gujarat,Standard,3500,4.3,WiFi|AC,1.5,500
+The Leela Ambience,Gurgaon,Haryana,Luxury,9000,4.7,WiFi|Pool,1.0,1300
+Hotel Cyber Residency,Gurgaon,Haryana,Standard,4000,4.3,WiFi|AC,1.5,800
+Divine Clarks Inn,Kurukshetra,Haryana,Standard,3000,4.2,WiFi|Restaurant,1.2,500
+Hotel Pearl Marc,Kurukshetra,Haryana,Budget,1800,4.0,Basic,1.8,300
+Radisson Blu,Faridabad,Haryana,Luxury,7000,4.5,WiFi|Pool,1.0,900
+Hotel Delite,Faridabad,Haryana,Standard,3500,4.2,WiFi|AC,1.5,600
+Hotel KC Crossroads,Panchkula,Haryana,Standard,3200,4.3,WiFi|AC,1.0,400
+Morni Hills Resort,Morni Hills,Haryana,Budget,2500,4.1,Nature Stay,2.0,300
+Oberoi Cecil,Shimla,Himachal Pradesh,Luxury,9000,4.8,WiFi|Spa|Heritage,1.0,1400
+Hotel Willow Banks,Shimla,Himachal Pradesh,Standard,4000,4.4,WiFi|AC,1.5,900
+The Himalayan,Manali,Himachal Pradesh,Luxury,10000,4.7,WiFi|Pool,2.0,800
+Snow Valley Resort,Manali,Himachal Pradesh,Standard,4500,4.5,WiFi|View,1.2,1000
+Fortune Park,Dharamshala,Himachal Pradesh,Luxury,7000,4.6,WiFi|View,1.0,700
+Hotel Inclover,Dharamshala,Himachal Pradesh,Standard,3500,4.3,WiFi|AC,1.5,600
+Pink House,McLeod Ganj,Himachal Pradesh,Budget,2000,4.2,Basic Amenities,1.0,500
+Zostel,McLeod Ganj,Himachal Pradesh,Budget,1800,4.3,Hostel|WiFi,1.2,400
+Hotel Sandhya Palace,Kullu,Himachal Pradesh,Standard,3000,4.2,WiFi|AC,1.0,300
+Himalayan Village,Kasol,Himachal Pradesh,Luxury,8000,4.7,WiFi|Nature,2.0,350
+Spiti Eco Lodge,Spiti Valley,Himachal Pradesh,Standard,4000,4.5,Nature Stay,2.5,200
+Grand View Hotel,Dalhousie,Himachal Pradesh,Standard,3500,4.3,WiFi|View,1.2,500
+Devdar Resort,Khajjiar,Himachal Pradesh,Standard,3200,4.2,WiFi|Nature,1.5,300
+Kasauli Resort,Kasauli,Himachal Pradesh,Luxury,7000,4.6,WiFi|Pool,1.0,400
+Hotel City Heart,Chamba,Himachal Pradesh,Budget,2000,4.0,Basic,1.5,200
+RS Sarovar Portico,Palampur,Himachal Pradesh,Luxury,6000,4.5,WiFi|Gym,1.0,350
+Hotel Lotus Inn,Solan,Himachal Pradesh,Standard,2800,4.2,WiFi|AC,1.2,250
+Snowflake Resort,Narkanda,Himachal Pradesh,Standard,3000,4.3,WiFi|View,1.5,200
+Tirthan Anglers Retreat,Tirthan Valley,Himachal Pradesh,Standard,3500,4.5,Nature Stay,2.0,150
+Bir Nest,Bir Billing,Himachal Pradesh,Budget,2000,4.3,Camp Stay,1.5,300
+Chail Palace Hotel,Chail,Himachal Pradesh,Luxury,7500,4.7,Heritage|WiFi,1.0,400
+Kufri Holiday Resort,Kufri,Himachal Pradesh,Standard,3200,4.3,WiFi|View,1.2,350
+Rohtang View Camp,Rohtang Pass,Himachal Pradesh,Budget,2500,4.2,Camp|Basic,2.5,200
+Barot Camp,Barot Valley,Himachal Pradesh,Budget,1800,4.1,Nature Camp,2.0,150
+Radisson Blu,Ranchi,Jharkhand,Luxury,7000,4.6,WiFi|Pool|Gym,1.0,900
+Hotel Capitol Hill,Ranchi,Jharkhand,Standard,3500,4.3,WiFi|AC|Restaurant,1.5,700
+Prabhat Vihar,Netarhat,Jharkhand,Budget,2000,4.1,Nature Stay,2.0,200
+Netarhat Retreat,Netarhat,Jharkhand,Standard,3000,4.3,WiFi|View,1.5,250
+Hotel Yashoda International,Deoghar,Jharkhand,Standard,3000,4.2,WiFi|AC,1.2,500
+Imperial Heights,Deoghar,Jharkhand,Luxury,6000,4.5,WiFi|Pool|Restaurant,1.5,400
+The Sonnet,Jamshedpur,Jharkhand,Luxury,6500,4.6,WiFi|Pool|Gym,1.0,600
+Hotel Ganga Regency,Jamshedpur,Jharkhand,Standard,3200,4.3,WiFi|AC,1.3,500
+Hazaribagh Lake Resort,Hazaribagh,Jharkhand,Standard,3000,4.2,WiFi|View,1.2,300
+Betla Forest Lodge,Betla National Park,Jharkhand,Budget,2200,4.1,Nature Stay,2.5,250
+Patratu Lake Resort,Patratu Valley,Jharkhand,Standard,2800,4.3,WiFi|View,1.5,350
+Parasnath Guest House,Parasnath Hill,Jharkhand,Budget,2000,4.2,Basic Amenities,1.8,200
+Hotel Cocoon,Dhanbad,Jharkhand,Standard,3200,4.3,WiFi|AC,1.0,400
+Hotel Natraj,Bokaro,Jharkhand,Standard,3000,4.2,WiFi|AC,1.2,350
+Taj West End,Bangalore,Karnataka,Luxury,9000,4.7,WiFi|Pool|Spa,1.0,1500
+Hotel IBIS,Bangalore,Karnataka,Standard,4000,4.3,WiFi|AC,1.5,900
+Radisson Blu,Mysore,Karnataka,Luxury,7000,4.6,WiFi|Pool|Gym,1.0,1000
+Hotel Roopa,Mysore,Karnataka,Standard,3000,4.3,WiFi|AC,1.2,700
+Evolve Back,Coorg,Karnataka,Luxury,12000,4.8,WiFi|Pool|Nature,2.0,800
+Coorg Jungle Camp,Coorg,Karnataka,Standard,4500,4.5,WiFi|Nature,1.5,600
+Clarks Inn,Hampi,Karnataka,Standard,3500,4.3,WiFi|AC,1.0,500
+Heritage Resort,Hampi,Karnataka,Luxury,7000,4.6,WiFi|Pool,1.5,400
+Namaste Cafe,Gokarna,Karnataka,Standard,4000,4.4,WiFi|Beach View,1.0,600
+SwaSwara,Gokarna,Karnataka,Luxury,9000,4.7,WiFi|Spa,1.5,500
+Trivik Hotels,Chikmagalur,Karnataka,Luxury,10000,4.8,WiFi|Pool,2.0,400
+Hotel Udupi Residency,Udupi,Karnataka,Budget,2000,4.2,WiFi|Basic,1.0,500
+Badami Court,Badami,Karnataka,Standard,3000,4.3,WiFi|AC,1.2,300
+Hotel Madhuvan,Bijapur,Karnataka,Standard,2800,4.2,WiFi|AC,1.3,250
+Kabini River Lodge,Kabini,Karnataka,Luxury,9000,4.7,WiFi|Safari,2.0,350
+Parakkat Nature Resort,Munnar,Kerala,Luxury,8000,4.7,WiFi|View|Spa,1.5,900
+Deep Woods Resort,Munnar,Kerala,Standard,4000,4.4,WiFi|Nature,1.2,700
+Punnamada Resort,Alleppey,Kerala,Luxury,9000,4.8,WiFi|Pool|Backwater View,1.0,1100
+Houseboat Stay,Alleppey,Kerala,Standard,5000,4.6,Stay|Meals Included,0.5,800
+Brunton Boatyard,Kochi,Kerala,Luxury,8500,4.7,WiFi|Heritage|Pool,1.0,900
+Ibis Hotel,Kochi,Kerala,Standard,4000,4.3,WiFi|AC,1.5,800
+Vythiri Resort,Wayanad,Kerala,Luxury,9000,4.7,WiFi|Nature|Pool,2.0,700
+Wayanad Gate Hotel,Wayanad,Kerala,Standard,3500,4.3,WiFi|AC,1.2,600
+Spice Village,Thekkady,Kerala,Luxury,8500,4.7,WiFi|Nature|Pool,1.5,650
+Periyar House,Thekkady,Kerala,Standard,4000,4.4,WiFi|Forest Stay,1.0,500
+Taj Green Cove,Kovalam,Kerala,Luxury,10000,4.8,WiFi|Pool|Sea View,1.0,1200
+Sagara Beach Resort,Kovalam,Kerala,Standard,4500,4.4,WiFi|Beach View,1.3,700
+Clafouti Beach Resort,Varkala,Kerala,Standard,4200,4.3,WiFi|Cliff View,1.0,600
+Gateway Hotel,Trivandrum,Kerala,Luxury,7000,4.5,WiFi|Pool,1.2,800
+Kumarakom Lake Resort,Kumarakom,Kerala,Luxury,12000,4.8,WiFi|Pool|Backwater View,1.0,900
+Bekal Fort Resort,Bekal,Kerala,Standard,4000,4.4,WiFi|View,1.5,500
+Jehan Numa Palace,Bhopal,Madhya Pradesh,Luxury,7000,4.6,WiFi|Pool,1.0,900
+Sayaji Hotel,Indore,Madhya Pradesh,Luxury,6500,4.6,WiFi|Pool,1.0,1000
+Ramada,Khajuraho,Madhya Pradesh,Luxury,7000,4.7,WiFi|Pool,1.0,800
+MP Tourism Lodge,Sanchi,Madhya Pradesh,Standard,3000,4.3,WiFi|AC,1.2,400
+Usha Kiran Palace,Gwalior,Madhya Pradesh,Luxury,8000,4.7,WiFi|Pool,1.0,600
+Hotel Abika Elite,Ujjain,Madhya Pradesh,Standard,3500,4.3,WiFi|AC,1.0,700
+Rock End Manor,Pachmarhi,Madhya Pradesh,Standard,3500,4.4,WiFi|View,1.5,300
+Kanha Jungle Lodge,Kanha,Madhya Pradesh,Luxury,9000,4.8,Safari|Pool,2.0,500
+Bandhavgarh Resort,Bandhavgarh,Madhya Pradesh,Luxury,9000,4.8,Safari|Pool,2.0,450
+Orchha Resort,Orchha,Madhya Pradesh,Standard,3000,4.3,WiFi|AC,1.2,350
+Classic Grande,Imphal,Manipur,Luxury,6000,4.6,WiFi|Gym,1.0,400
+Hotel Imphal,Imphal,Manipur,Standard,3500,4.3,WiFi|AC,1.2,300
+Sendra Park Resort,Loktak Lake,Manipur,Standard,3000,4.4,WiFi|View,1.5,200
+Ukhrul Guest House,Ukhrul,Manipur,Budget,2000,4.2,Basic Amenities,1.8,150
+Moirang Lodge,Moirang,Manipur,Budget,1800,4.1,Basic,1.2,120
+Thoubal Residency,Thoubal,Manipur,Standard,2800,4.2,WiFi|AC,1.0,100
+Bishnupur Hotel,Bishnupur,Manipur,Budget,2000,4.1,Basic,1.5,130
+Senapati Resort,Senapati,Manipur,Standard,3000,4.3,WiFi|View,1.5,120
+Tamenglong Lodge,Tamenglong,Manipur,Budget,2200,4.2,Nature Stay,2.0,100
+Kangla Residency,Imphal,Manipur,Standard,3200,4.3,WiFi|AC,1.0,200
+Hotel Polo Towers,Shillong,Meghalaya,Luxury,6500,4.5,WiFi|Gym,1.0,900
+The Eee Cee Hotel,Shillong,Meghalaya,Standard,3500,4.3,WiFi|AC,1.2,600
+Cherrapunji Holiday Resort,Cherrapunji,Meghalaya,Standard,4000,4.4,WiFi|View,1.5,500
+Mawlynnong Bamboo Hut,Mawlynnong,Meghalaya,Budget,2000,4.2,Nature Stay,1.0,200
+Dawki Riverside Camp,Dawki,Meghalaya,Budget,2500,4.3,Camp|View,1.5,300
+Hotel Regency,Aizawl,Mizoram,Standard,3500,4.3,WiFi|AC,1.0,300
+Hotel Floria,Aizawl,Mizoram,Budget,2000,4.1,Basic,1.5,200
+Reiek Tourist Resort,Reiek,Mizoram,Standard,3000,4.4,WiFi|View,1.2,150
+Champhai Guest House,Champhai,Mizoram,Budget,2000,4.2,Basic,1.5,120
+Lunglei Hotel,Lunglei,Mizoram,Standard,2800,4.2,WiFi|AC,1.0,100
+Hotel Vivor,Kohima,Nagaland,Standard,3500,4.3,WiFi|AC,1.0,300
+Hotel Japfu,Kohima,Nagaland,Budget,2000,4.1,Basic,1.5,200
+Hotel Saramati,Dimapur,Nagaland,Standard,3000,4.2,WiFi|AC,1.0,400
+Hotel Tragopan,Dimapur,Nagaland,Luxury,6000,4.5,WiFi|Restaurant,1.2,350
+Dzukou Camp,Dzukou Valley,Nagaland,Budget,2500,4.4,Camp Stay,2.5,150
+Mokokchung Lodge,Mokokchung,Nagaland,Budget,2000,4.1,Basic,1.2,100
+Mon Guest House,Mon,Nagaland,Budget,1800,4.0,Basic,1.5,90
+Tuophema Tourist Lodge,Tuophema Village,Nagaland,Standard,3000,4.3,WiFi|Cultural Stay,1.0,120
+Wokha Residency,Wokha,Nagaland,Budget,2000,4.1,Basic,1.2,80
+Phek Lodge,Phek,Nagaland,Standard,2800,4.2,WiFi|View,1.5,70
+Mayfair Lagoon,Bhubaneswar,Odisha,Luxury,8000,4.7,WiFi|Pool,1.0,1200
+Hotel Swosti,Bhubaneswar,Odisha,Standard,4000,4.3,WiFi|AC,1.2,800
+Toshali Sands,Puri,Odisha,Luxury,7000,4.6,WiFi|Pool,1.5,900
+Hotel Holiday Resort,Puri,Odisha,Standard,3500,4.3,WiFi|Beach View,1.2,700
+Lotus Eco Resort,Konark,Odisha,Standard,3200,4.4,WiFi|View,1.5,500
+Chilika Nature Camp,Chilika Lake,Odisha,Budget,2500,4.2,Nature Stay,2.0,300
+Hotel Seetal,Cuttack,Odisha,Standard,3000,4.2,WiFi|AC,1.0,600
+Mayfair Palm Beach,Gopalpur,Odisha,Luxury,8500,4.7,WiFi|Pool|Beach View,1.0,500
+Daringbadi Eco Resort,Daringbadi,Odisha,Standard,3000,4.3,Nature Stay,1.5,200
+Hotel Sheela Towers,Sambalpur,Odisha,Standard,2800,4.2,WiFi|AC,1.2,300
+Taj Swarna,Amritsar,Punjab,Luxury,9000,4.8,WiFi|Pool|Spa,1.0,1500
+Ramada,Amritsar,Punjab,Standard,4000,4.4,WiFi|AC,1.2,1000
+Hyatt Regency,Chandigarh,Punjab,Luxury,8000,4.7,WiFi|Pool,1.0,1200
+Hotel Shivalikview,Chandigarh,Punjab,Standard,3500,4.3,WiFi|AC,1.5,800
+Radisson Blu,Ludhiana,Punjab,Luxury,7000,4.6,WiFi|Pool,1.0,900
+Hotel Nirvana,Ludhiana,Punjab,Standard,3500,4.3,WiFi|AC,1.2,600
+Neemrana Baradari Palace,Patiala,Punjab,Luxury,8000,4.7,WiFi|Heritage,1.0,500
+Hotel Eqbal Inn,Patiala,Punjab,Standard,3500,4.3,WiFi|AC,1.2,400
+Best Western,Jalandhar,Punjab,Standard,4000,4.3,WiFi|AC,1.0,700
+Ramada,Jalandhar,Punjab,Luxury,7000,4.5,WiFi|Pool,1.2,600
+Hotel Royal Court,Bathinda,Punjab,Standard,3000,4.2,WiFi|AC,1.0,300
+Hotel Sepal,Bathinda,Punjab,Luxury,6000,4.4,WiFi|Pool,1.5,250
+Anand at The Satluj,Anandpur Sahib,Punjab,Standard,3000,4.3,WiFi|AC,1.2,200
+Hotel President,Pathankot,Punjab,Standard,3200,4.2,WiFi|AC,1.0,300
+Rambagh Palace,Jaipur,Rajasthan,Luxury,12000,4.9,WiFi|Pool|Spa,1.0,2000
+Holiday Inn,Jaipur,Rajasthan,Standard,4000,4.4,WiFi|AC,1.5,1200
+Taj Lake Palace,Udaipur,Rajasthan,Luxury,15000,4.9,WiFi|Lake View,1.0,1800
+Hotel Lakend,Udaipur,Rajasthan,Standard,5000,4.5,WiFi|AC,1.2,900
+Umaid Bhawan Palace,Jodhpur,Rajasthan,Luxury,14000,4.9,WiFi|Heritage,1.0,1600
+Desert Tulip,Jaisalmer,Rajasthan,Standard,4500,4.4,WiFi|AC,1.5,700
+Pushkar Palace,Pushkar,Rajasthan,Standard,3500,4.4,WiFi|View,1.2,600
+Ramada,Ajmer,Rajasthan,Standard,4000,4.3,WiFi|AC,1.3,800
+Laxmi Niwas Palace,Bikaner,Rajasthan,Luxury,8000,4.6,WiFi|Heritage,1.0,500
+The Fern,Ranthambore,Rajasthan,Luxury,9000,4.7,WiFi|Safari,1.5,600
+Mayfair Spa Resort,Gangtok,Sikkim,Luxury,9000,4.8,WiFi|Spa|Pool,1.0,1200
+Hotel Central,Gangtok,Sikkim,Standard,4000,4.4,WiFi|AC,1.5,800
+Tsomgo Lake Lodge,Tsomgo Lake,Sikkim,Budget,2500,4.2,Basic,1.5,300
+Nathula Camp,Nathula Pass,Sikkim,Budget,3000,4.3,Camp Stay,2.0,200
+Hotel Norbu Ghang,Pelling,Sikkim,Standard,3500,4.4,WiFi|View,1.2,400
+Yumthang Resort,Yumthang Valley,Sikkim,Standard,4000,4.5,Nature Stay,1.5,250
+Namchi Hotel,Namchi,Sikkim,Budget,2500,4.2,WiFi|Basic,1.0,200
+Ravangla Inn,Ravangla,Sikkim,Standard,3000,4.3,WiFi|View,1.2,180
+Zuluk Homestay,Zuluk,Sikkim,Budget,2000,4.2,Home Stay,1.5,150
+Singalila Lodge,Singalila NP,Sikkim,Standard,3500,4.4,Nature Stay,2.0,120
+Taj Coromandel,Chennai,Tamil Nadu,Luxury,9000,4.8,WiFi|Pool|Spa,1.0,1500
+Ibis Hotel,Chennai,Tamil Nadu,Standard,4000,4.4,WiFi|AC,1.5,1200
+Savoy Hotel,Ooty,Tamil Nadu,Luxury,8000,4.7,WiFi|Heritage,1.0,1000
+Sterling Resort,Kodaikanal,Tamil Nadu,Standard,4500,4.5,WiFi|View,1.2,900
+Heritage Madurai,Madurai,Tamil Nadu,Luxury,7000,4.7,WiFi|Pool,1.0,800
+Daiwik Hotel,Rameswaram,Tamil Nadu,Standard,3500,4.4,WiFi|AC,1.2,700
+Vivanta,Coimbatore,Tamil Nadu,Luxury,8000,4.7,WiFi|Pool,1.0,900
+Radisson Blu,Mahabalipuram,Tamil Nadu,Luxury,9000,4.7,WiFi|Pool,1.5,800
+Sparsa Resort,Kanyakumari,Tamil Nadu,Standard,4000,4.4,WiFi|View,1.2,700
+Grand Gardenia,Trichy,Tamil Nadu,Standard,3500,4.3,WiFi|AC,1.0,600
+Taj Krishna,Hyderabad,Telangana,Luxury,9000,4.8,WiFi|Pool|Spa,1.0,1500
+Hotel Ibis,Hyderabad,Telangana,Standard,4000,4.4,WiFi|AC,1.5,1200
+Haritha Hotel,Warangal,Telangana,Standard,3000,4.3,WiFi|AC,1.2,500
+Hotel Kapila,Nizamabad,Telangana,Standard,2800,4.2,WiFi|AC,1.0,300
+Hotel Swetha,Karimnagar,Telangana,Budget,2000,4.1,Basic,1.5,200
+Khammam Residency,Khammam,Telangana,Standard,3000,4.2,WiFi|AC,1.0,250
+Haritha Resort,Adilabad,Telangana,Standard,3200,4.3,Nature Stay,1.5,200
+Medak Residency,Medak,Telangana,Budget,2000,4.1,Basic,1.2,150
+Hotel Supreme,Mahbubnagar,Telangana,Standard,2800,4.2,WiFi|AC,1.0,180
+Bhadrachalam Lodge,Bhadrachalam,Telangana,Budget,2200,4.2,Basic,1.0,220
+Hotel Polo Towers,Agartala,Tripura,Luxury,6000,4.6,WiFi|Pool,1.0,500
+Hotel Sonar Tori,Agartala,Tripura,Standard,3000,4.3,WiFi|AC,1.2,400
+Neermahal Tourist Lodge,Neermahal,Tripura,Standard,2800,4.4,WiFi|View,1.5,200
+Unakoti Lodge,Unakoti,Tripura,Budget,2000,4.2,Basic,1.8,150
+Jampui Hill Resort,Jampui Hills,Tripura,Standard,3000,4.3,WiFi|View,1.5,180
+Sepahijala Resort,Sepahijala,Tripura,Standard,2800,4.2,Nature Stay,1.2,150
+Dumboor Lake Resort,Dumboor Lake,Tripura,Standard,3000,4.3,WiFi|View,1.5,120
+Kailashahar Hotel,Kailashahar,Tripura,Budget,2000,4.1,Basic,1.0,100
+Belonia Lodge,Belonia,Tripura,Budget,1800,4.0,Basic,1.2,80
+Ambassa Guest House,Ambassa,Tripura,Budget,1800,4.1,Basic,1.5,90
+The Oberoi Amarvilas,Agra,Uttar Pradesh,Luxury,15000,4.9,WiFi|Pool|Taj View,1.0,2000
+Hotel Taj Resorts,Agra,Uttar Pradesh,Standard,4000,4.4,WiFi|AC,1.2,1500
+Brijrama Palace,Varanasi,Uttar Pradesh,Luxury,12000,4.8,WiFi|Ghat View,1.0,1200
+Hotel Surya,Varanasi,Uttar Pradesh,Standard,3500,4.3,WiFi|AC,1.5,900
+Taj Mahal Hotel,Lucknow,Uttar Pradesh,Luxury,8000,4.7,WiFi|Pool,1.0,1000
+Hotel Lineage,Lucknow,Uttar Pradesh,Standard,3500,4.3,WiFi|AC,1.2,800
+Ramprastha Hotel,Ayodhya,Uttar Pradesh,Standard,3000,4.3,WiFi|AC,1.0,700
+The Radha Ashok,Mathura,Uttar Pradesh,Standard,3200,4.4,WiFi|AC,1.2,600
+Clarks Inn,Vrindavan,Uttar Pradesh,Standard,3000,4.3,WiFi|AC,1.0,500
+Hotel Kanha Shyam,Prayagraj,Uttar Pradesh,Standard,3500,4.3,WiFi|AC,1.2,600
+Four Points,Dehradun,Uttarakhand,Luxury,7000,4.6,WiFi|Pool,1.0,900
+JW Marriott,Mussoorie,Uttarakhand,Luxury,12000,4.8,WiFi|Spa,1.0,1500
+Naini Retreat,Nainital,Uttarakhand,Luxury,9000,4.7,WiFi|View,1.0,1000
+Aloha Resort,Rishikesh,Uttarakhand,Standard,4000,4.4,WiFi|View,1.2,800
+Ganga Lahari,Haridwar,Uttarakhand,Standard,3500,4.5,Ghat View,1.0,900
+Cliff Top Club,Auli,Uttarakhand,Standard,4000,4.4,WiFi|View,1.5,500
+Kedarnath Camp,Kedarnath,Uttarakhand,Budget,2500,4.3,Camp Stay,2.0,400
+Sarovar Portico,Badrinath,Uttarakhand,Standard,3500,4.3,WiFi|AC,1.5,300
+The Riverview Retreat,Corbett,Uttarakhand,Luxury,9000,4.7,WiFi|Safari,1.5,700
+Kasaar Jungle Resort,Almora,Uttarakhand,Standard,3500,4.4,WiFi|Nature,1.5,400
+ITC Royal Bengal,Kolkata,West Bengal,Luxury,9000,4.8,WiFi|Pool,1.0,1500
+Hotel Kenilworth,Kolkata,West Bengal,Standard,4000,4.4,WiFi|AC,1.5,1200
+Mayfair,Darjeeling,West Bengal,Luxury,9000,4.8,WiFi|View,1.0,1000
+Sinclairs,Darjeeling,West Bengal,Standard,4000,4.4,WiFi|AC,1.2,800
+Courtyard Marriott,Siliguri,West Bengal,Luxury,7000,4.6,WiFi|Pool,1.0,900
+Sundarbans Jungle Camp,Sundarbans,West Bengal,Standard,4000,4.5,Nature Stay,2.0,500
+Hotel Sea Hawk,Digha,West Bengal,Standard,3500,4.3,WiFi|Beach View,1.2,700
+Elgin Silver Oaks,Kalimpong,West Bengal,Luxury,8000,4.7,WiFi|Heritage,1.0,400
+Hazarduari Hotel,Murshidabad,West Bengal,Standard,3000,4.3,WiFi|AC,1.2,300
+Bishnupur Lodge,Bishnupur,West Bengal,Standard,2800,4.2,WiFi|AC,1.5,250
